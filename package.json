@@ -1,0 +1,26 @@
+{
+  "name": "http-api-assignment-1",
+  "version": "1.0.0",
+  "description": "api hmwk",
+  "main": "index.js",
+  "devDependencies": {
+    "eslint": "^3.19.0",
+    "eslint-config-airbnb": "^9.0.1",
+    "eslint-plugin-import": "^1.16.0"
+  },
+  "scripts": {
+    "start": "node ./src/server.js",
+    "pretest": "eslint ./src --fix",
+    "test": "echo \"Tests Complete\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Peekz1025/http-api-assignment.git"
+  },
+  "author": "Rob Piwko",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/Peekz1025/http-api-assignment/issues"
+  },
+  "homepage": "https://github.com/Peekz1025/http-api-assignment#readme"
+}
